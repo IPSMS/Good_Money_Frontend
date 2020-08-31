@@ -54,7 +54,7 @@ export default function Home() {
   const [userDailyTotal, setUserDailyTotal] = useState(0);
   const [userName, setUserName] = useState("");
 
-  fetch("http://localhost:3000/profile", {
+  fetch("https://nameless-eyrie-15847.herokuapp.com/profile", {
     headers: {
       Authorization: `Bearer ${localStorage.jwt}`,
     },
@@ -66,7 +66,7 @@ export default function Home() {
       }
     });
 
-  fetch("http://localhost:3000/usertotal/:id", {
+  fetch("https://nameless-eyrie-15847.herokuapp.com/usertotal/:id", {
     headers: {
       Authorization: `Bearer ${localStorage.jwt}`,
     },
@@ -76,7 +76,7 @@ export default function Home() {
       setUserTotal(data);
     });
 
-  fetch("http://localhost:3000/userdailytotal/:id", {
+  fetch("https://nameless-eyrie-15847.herokuapp.com/userdailytotal/:id", {
     headers: {
       Authorization: `Bearer ${localStorage.jwt}`,
     },
@@ -86,8 +86,8 @@ export default function Home() {
       setUserDailyTotal(data);
     });
 
-  if( !userName ){
-    return <Redirect to="/" />
+  if (!userName) {
+    return <Redirect to="/" />;
   }
 
   return (

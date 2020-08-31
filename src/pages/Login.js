@@ -14,7 +14,7 @@ import {
   TextField,
   Button,
   Box,
-  FormControl
+  FormControl,
 } from "@material-ui/core";
 
 // Styles Object
@@ -67,7 +67,7 @@ export default function Login() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("http://localhost:3000/login", {
+    fetch("https://nameless-eyrie-15847.herokuapp.com/login", {
       method: "POST",
       headers: {
         Accept: "application/json",
@@ -85,7 +85,7 @@ export default function Login() {
           localStorage.username = data.user.username;
           localStorage.id = data.user.id;
           // PUSH TO THE HOME ROUTE
-         
+
           window.location.reload();
         }
       });
@@ -97,7 +97,7 @@ export default function Login() {
         LOGIN:
       </Typography>
       <Box className="formInputs">
-        <form onSubmit={handleSubmit} >
+        <form onSubmit={handleSubmit}>
           <TextField
             id="standard-full-width"
             label="Username:"

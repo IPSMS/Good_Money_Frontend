@@ -35,7 +35,7 @@ export default function CompleteButton(props) {
     if (date[1] === "-") {
       todayDate = "0" + date;
     }
-    fetch("http://localhost:3000/stats", {
+    fetch("https://nameless-eyrie-15847.herokuapp.com/stats", {
       method: "POST",
       headers: {
         Accept: "application/json",

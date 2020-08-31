@@ -68,7 +68,7 @@ export default function Signup() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    fetch("http://localhost:3000/signup", {
+    fetch("https://nameless-eyrie-15847.herokuapp.com/signup", {
       method: "POST",
       headers: {
         Accept: "application/json",
@@ -188,9 +188,7 @@ export default function Signup() {
           >
             SUBMIT
           </Button>
-
         </form>
-        
       </Box>
     </Container>
   );
