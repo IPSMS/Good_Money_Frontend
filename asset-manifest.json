@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Good_Money_Frontend/static/css/main.5f361e03.chunk.css",
+    "main.js": "/Good_Money_Frontend/static/js/main.3ed0eb12.chunk.js",
+    "main.js.map": "/Good_Money_Frontend/static/js/main.3ed0eb12.chunk.js.map",
+    "runtime-main.js": "/Good_Money_Frontend/static/js/runtime-main.4e755464.js",
+    "runtime-main.js.map": "/Good_Money_Frontend/static/js/runtime-main.4e755464.js.map",
+    "static/js/2.4ff08064.chunk.js": "/Good_Money_Frontend/static/js/2.4ff08064.chunk.js",
+    "static/js/2.4ff08064.chunk.js.map": "/Good_Money_Frontend/static/js/2.4ff08064.chunk.js.map",
+    "index.html": "/Good_Money_Frontend/index.html",
+    "precache-manifest.25c9d2721e800505875378c7b70178b9.js": "/Good_Money_Frontend/precache-manifest.25c9d2721e800505875378c7b70178b9.js",
+    "service-worker.js": "/Good_Money_Frontend/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/Good_Money_Frontend/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.4ff08064.chunk.js.LICENSE.txt": "/Good_Money_Frontend/static/js/2.4ff08064.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e755464.js",
+    "static/js/2.4ff08064.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.3ed0eb12.chunk.js"
+  ]
+}
